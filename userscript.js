@@ -5,6 +5,7 @@
 // @description  With this script you can get the API token without enabling Multi Company Mode (MCM).
 // @author       @78wesley
 // @include      /^https:.*3cx.*
+// @downloadURL  https://raw.githubusercontent.com/78wesley/script-3cx-apitoken/main/userscript.js
 // @grant        GM_xmlhttpRequest
 // @grant        GM_cookie
 // @run-at       document-end
