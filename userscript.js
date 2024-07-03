@@ -40,4 +40,4 @@
         targetElement ? targetElement.insertAdjacentElement("afterend", button) : console.log("Target element not found.")}
 
     // Main execution
-    window.addEventListener("load", () => { console.log("Custom button Script loaded"); addButton() })})()
+    window.addEventListener("load", () => { console.log("Custom button Script loaded"); setTimeout(addButton, 1000); })})()
